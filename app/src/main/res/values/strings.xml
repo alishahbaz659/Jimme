@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">jime</string>
+    <string name="facebook_app_id">498298457641086</string>
+    <string name="fb_login_protocol_scheme">fb498298457641086</string>
+    <string name="map_key" translatable="false">AIzaSyCgfbBqghK8_NNSCzw_LQalhmgwrm4TA2w</string>
+
+    <string-array name="carriers">
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Lawyer</item>
+        <item>Psychologist</item>
+    </string-array>
+</resources>

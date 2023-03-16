@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:text="7-8 AM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/sevenToeight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:text="8-9 AM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/eightTonine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnetn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l2"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:text="9-10 AM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/nineToten"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnntt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l3"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="10-11 AM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/tenToeleven"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btntte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l4"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="11-12 AM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/elevenTotweleve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnttt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l5"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="12-1 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/twelveToone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btntto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l6"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="1-2 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/oneTotwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/ott"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l7"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="2-3 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/twoTothree"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btntwotothree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l8"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="3-4 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/threeTofour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnthreetofour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l9"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+
+                    android:text="4-5 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/fourTofive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnfourtofive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l10"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:text="5-6 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/fiveTosix"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnfivetosix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/l11"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:text="6-7 PM"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/sixeToseven"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:paddingRight="20dp"
+                    android:theme="@style/SCBSwitch" />
+
+                <Button
+                    android:id="@+id/btnsixtoseven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/book_now_btn"
+                    android:padding="8dp"
+                    android:text="Book Now"
+                    android:textColor="#FFFFFF"></Button>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

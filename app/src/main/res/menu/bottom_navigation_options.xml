@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aaction_item1"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:title="Clients" />
+    <item
+        android:id="@+id/aaction_item2"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="profile" />
+    <item
+        android:id="@+id/aaction_item3"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="My Posts" />
+    <item
+        android:id="@+id/aaction_item4"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+    <item
+        android:id="@+id/aaction_item5"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+
+
+</menu>

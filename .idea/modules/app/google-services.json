@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513586020902",
+    "firebase_url": "https://jime-7f6e9.firebaseio.com",
+    "project_id": "jime-7f6e9",
+    "storage_bucket": "jime-7f6e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513586020902:android:9d0e558919aa40abfa9ce7",
+        "android_client_info": {
+          "package_name": "com.example.jime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513586020902-0rhkfqvtpsvnl5ha8shdv9g0jo9fvq1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jime",
+            "certificate_hash": "b01f6af3e306cec544e01045270472d7b11dc26f"
+          }
+        },
+        {
+          "client_id": "513586020902-r2itdkk27q8u8qjlbcp17a7japlirmi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDie5NNKUQz2_sKPGYu-dF8MLs4n4FES0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513586020902-r2itdkk27q8u8qjlbcp17a7japlirmi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

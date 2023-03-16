@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863823783297",
+    "firebase_url": "https://jimme-1e48e.firebaseio.com",
+    "project_id": "jimme-1e48e",
+    "storage_bucket": "jimme-1e48e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863823783297:android:8299376e60014890c6b480",
+        "android_client_info": {
+          "package_name": "com.nubar.jime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863823783297-ofqmj7bhvvct4geqbsbmptc5s6dq7kpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nubar.jime",
+            "certificate_hash": "b01f6af3e306cec544e01045270472d7b11dc26f"
+          }
+        },
+        {
+          "client_id": "863823783297-22ta8sq4v1c9du4issr3q25o0l6g68f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFlPmRXysJ0Lz5I9WzwhBYoM4d1iCb0Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863823783297-22ta8sq4v1c9du4issr3q25o0l6g68f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:background="@drawable/ic_profileshape">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Profile Information"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ic_person_black"
+                app:civ_border_color="#fff"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/profileemail"
+                android:layout_width="345dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:hint="Email"
+                android:paddingLeft="5dp"></EditText>
+
+            <EditText
+                android:id="@+id/profilename"
+                android:layout_width="345dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/profileemail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_edittext"
+                android:editable="false"
+                android:hint="Name"
+                android:paddingLeft="5dp"></EditText>
+
+            <Spinner
+                android:id="@+id/carrier"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/profilename"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp"
+                android:entries="@array/carriers"
+                android:hint="Carrier"
+                android:paddingLeft="5dp"></Spinner>
+
+            <EditText
+                android:id="@+id/workingplace"
+                android:layout_width="345dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/carrier"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Location of carrier"
+                android:paddingLeft="5dp"></EditText>
+            <LinearLayout
+                android:id="@+id/totalfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/workingplace"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment Fee 💎:"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"></TextView>
+            <EditText
+                android:id="@+id/fees"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/workingplace"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="number"
+                android:hint="Fee"
+                android:paddingLeft="8dp"></EditText></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalcrys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalfee"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/user_total_crystals"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:editable="false"
+                    android:hint="Total Crystals"
+                    android:paddingLeft="5dp"
+                    android:text="Total Crystals: "></EditText>
+
+                <ImageView
+                    android:id="@+id/img_buyCrystals"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/ic_baseline_add_shopping_cart_24">
+
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/calender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalcrys"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/rounded_edittext"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ⓢ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓢ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓜ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓣ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓦ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓣ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ⓕ"
+                    android:textColor="#000000"
+                    android:textSize="30dp"></TextView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/updateprofilebtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/calender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_round"
+                android:text="Update Profile"></Button>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

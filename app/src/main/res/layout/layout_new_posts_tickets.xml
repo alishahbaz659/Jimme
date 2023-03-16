@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="0"
+        android:background="@drawable/ticket"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/togglee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Post Title: "
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/Businesstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/togglee1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:gravity="center_horizontal"
+                android:text="Post Description"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/Businesclosingtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Businesstatus"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:gravity="center_horizontal"
+                android:text="Distance"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/posttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:text="N/A"
+
+                android:textColor="#fff"></TextView>
+
+            <TextView
+                android:id="@+id/postdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/posttitle"
+                android:layout_marginTop="9dp"
+                android:text="N/A"
+                android:textColor="#fff"></TextView>
+
+            <TextView
+                android:id="@+id/txtpostlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postdescription"
+                android:layout_marginTop="9dp"
+                android:text="N/A"
+                android:textColor="#fff"></TextView>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
