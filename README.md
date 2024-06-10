@@ -1,5 +1,5 @@
 # Jimme
-Schedule your appointments in seconds
+Schedule your appointments in seconds.
 
 This is a mobile application that allows users to schedule appointments for various positions such as doctors, psychiatrists, etc. The application is designed to make it easy for users to connect with professionals who are available for appointments.
 
